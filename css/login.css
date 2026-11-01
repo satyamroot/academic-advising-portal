@@ -1,0 +1,137 @@
+/* Basic page colors and text */
+body {
+  margin: 0;
+  background-color: #f3f6f9;
+  color: #24364b;
+  font-family: Arial, sans-serif;
+}
+
+/* Login page heading area */
+.login-intro {
+  padding: 24px;
+  background-color: #173653;
+  color: #ffffff;
+}
+
+.brand {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.brand-mark {
+  margin-right: 8px;
+  background-color: #ffffff;
+  color: #173653;
+  font-size: 22px;
+  text-align: center;
+}
+
+.intro-copy {
+  width: 90%;
+  margin: 35px auto;
+}
+
+.eyebrow {
+  color: #2874b8;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.intro-note {
+  color: #c6d7e6;
+  font-size: 12px;
+}
+
+/* Login form */
+.login-panel {
+  width: 90%;
+  margin: 25px auto;
+}
+
+.login-card {
+  width: 90%;
+  margin: 0 auto;
+  padding: 22px;
+  border: 1px solid #dce4ec;
+  background-color: #ffffff;
+}
+
+h2 {
+  color: #173653;
+  font-size: 25px;
+}
+
+.form-intro,
+.demo-note {
+  color: #6b7b8d;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+label {
+  margin-top: 12px;
+  color: #33475b;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+input,
+select {
+  width: 95%;
+  height: 38px;
+  margin-top: 5px;
+  margin-bottom: 8px;
+  padding: 5px;
+  border: 1px solid #d5dee7;
+  background-color: #ffffff;
+  color: #24364b;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.primary-button {
+  width: 98%;
+  height: 42px;
+  margin-top: 12px;
+  border: 1px solid #173653;
+  background-color: #173653;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.message {
+  margin-bottom: 12px;
+  padding: 10px;
+  font-size: 13px;
+}
+
+.error-message {
+  background-color: #fff0ef;
+  color: #a43838;
+}
+
+.mobile-brand {
+  margin-bottom: 18px;
+  color: #173653;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 22px;
+  color: #8391a0;
+  font-size: 11px;
+  text-align: center;
+}

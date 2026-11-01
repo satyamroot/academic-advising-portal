@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Academic Advising Portal demonstration login">
+  <title>Sign in | Academic Advising Portal</title>
+  <link rel="stylesheet" href="css/login.css">
+  <script src="js/login.js" defer></script>
+</head>
+<body>
+  <main class="login-layout">
+    <section class="login-intro" aria-labelledby="portal-title">
+      <a class="brand" href="index.html" aria-label="Academic Advising Portal home">
+        <span class="brand-mark" aria-hidden="true">A</span>
+        <span>Academic Advising Portal</span>
+      </a>
+      <div class="intro-copy">
+        <p class="eyebrow">YOUR NEXT STEP STARTS HERE</p>
+        <h1>Make a plan.<br>Find your direction.</h1>
+        <p>Connect with an academic advisor, plan your goals, and keep your next steps moving forward.</p>
+      </div>
+      <p class="intro-note">A student-friendly demonstration for academic planning.</p>
+    </section>
+    <section class="login-panel" aria-labelledby="portal-title">
+      <div class="login-card">
+        <div class="mobile-brand"><span class="brand-mark" aria-hidden="true">A</span> Academic Advising Portal</div>
+        <p class="eyebrow">WELCOME</p>
+        <h2 id="portal-title">Sign in to continue</h2>
+        <p class="form-intro">Choose a role to open its demonstration dashboard.</p>
+        <div id="login-error" class="message error-message" role="alert" hidden></div>
+        <form id="login-form" novalidate>
+          <label for="username">Username</label>
+          <input id="username" name="username" type="text" autocomplete="username" placeholder="Enter your username">
+
+          <label for="password">Password</label>
+          <input id="password" name="password" type="password" autocomplete="current-password" placeholder="Enter your password">
+
+          <label for="role">I am signing in as</label>
+          <select id="role" name="role">
+            <option value="">Select your role</option>
+            <option value="student">Student</option>
+            <option value="advisor">Advisor</option>
+            <option value="administrator">Administrator</option>
+          </select>
+
+          <button class="primary-button" type="submit">Continue to dashboard <span aria-hidden="true">→</span></button>
+        </form>
+        <p class="demo-note">Demonstration only: any non-empty username and password are accepted. Credentials are not saved and this is not real authentication.</p>
+      </div>
+      <footer>Academic Advising Portal <span aria-hidden="true">·</span> Frontend demonstration</footer>
+    </section>
+  </main>
+</body>
+</html>

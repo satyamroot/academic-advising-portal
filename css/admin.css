@@ -1,0 +1,200 @@
+/* Basic dashboard colors and text */
+body {
+  margin: 0;
+  background-color: #f3f6f9;
+  color: #293c50;
+  font-family: Arial, sans-serif;
+}
+
+/* Portal name and navigation */
+.sidebar {
+  padding: 18px;
+  background-color: #102b45;
+  color: #ffffff;
+}
+
+.brand {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.brand-mark {
+  margin-right: 8px;
+  background-color: #ffffff;
+  color: #173653;
+  font-size: 22px;
+  text-align: center;
+}
+
+small {
+  color: #bdccda;
+  font-size: 10px;
+}
+
+.nav-label {
+  margin-top: 20px;
+  color: #9ab0c6;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.nav-link {
+  padding: 10px;
+  color: #d8e5f1;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.nav-link.active {
+  background-color: #294762;
+  color: #ffffff;
+}
+
+.sidebar-bottom {
+  margin-top: 20px;
+  padding: 10px;
+  border-top: 1px solid #52687d;
+  color: #bdccda;
+  font-size: 12px;
+}
+
+.logout-link {
+  margin-top: 12px;
+  color: #ffffff;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+/* Main dashboard area */
+.main-content {
+  width: 92%;
+  margin: 0 auto;
+}
+
+.topbar {
+  height: 48px;
+  padding-top: 14px;
+  border-bottom: 1px solid #e2e8ee;
+  text-align: right;
+}
+
+.mobile-title {
+  color: #607387;
+  font-size: 12px;
+}
+
+.user-chip {
+  color: #34495c;
+  font-size: 12px;
+}
+
+small {
+  color: #778697;
+  font-size: 10px;
+}
+
+.avatar {
+  color: #24679d;
+  font-weight: bold;
+}
+
+.page-heading {
+  margin-top: 22px;
+  margin-bottom: 18px;
+}
+
+h1 {
+  margin-bottom: 8px;
+  color: #173653;
+  font-size: 27px;
+}
+
+p,
+.section-description {
+  color: #778697;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.button {
+  padding: 10px;
+  border: 1px solid #173653;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.button-primary {
+  background-color: #173653;
+  color: #ffffff;
+}
+
+.button-secondary {
+  background-color: #ffffff;
+  color: #40566b;
+}
+
+.button-danger {
+  border: 1px solid #efd0cf;
+  background-color: #ffffff;
+  color: #a34340;
+}
+
+/* Summary information and white panels */
+.stat-grid {
+  margin-bottom: 18px;
+}
+
+.stat-card,
+.panel {
+  margin-bottom: 12px;
+  padding: 16px;
+  border: 1px solid #e2e8ee;
+  background-color: #ffffff;
+}
+
+.stat-icon {
+  color: #2874b8;
+  font-size: 18px;
+}
+
+strong {
+  color: #173653;
+  font-size: 16px;
+}
+
+small {
+  color: #96a2ae;
+  font-size: 10px;
+}
+
+.section-heading {
+  margin-bottom: 8px;
+}
+
+h2 {
+  color: #173653;
+  font-size: 17px;
+}
+
+.section-description {
+  font-size: 12px;
+}
+
+/* Appointment and directory tables */
+.monitoring-panel {
+  margin-bottom: 18px;
+}
+
+.directory-grid {
+  margin-bottom: 18px;
+}
+
+.directory-item {
+  margin-top: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #edf0f3;
+}

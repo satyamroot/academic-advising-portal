@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Administrator appointment monitoring dashboard">
+  <title>Administrator Dashboard | Academic Advising Portal</title>
+  <link rel="stylesheet" href="css/admin.css">
+  <script src="js/portal-data.js" defer></script>
+  <script src="js/admin.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="admin.html"><span class="brand-mark">A</span><span>Academic Advising<br><small>PORTAL</small></span></a>
+      <p class="nav-label">ADMIN MENU</p>
+      <nav aria-label="Administrator navigation">
+        <a class="nav-link active" href="#overview">▦ <span>Overview</span></a>
+        <a class="nav-link" href="#appointments">☷ <span>All appointments</span></a>
+        <a class="nav-link" href="#directories">♙ <span>People directory</span></a>
+      </nav>
+      <div class="sidebar-bottom"><p>Monitor demonstration appointments and advisor details.</p><a class="logout-link" href="index.html">↪ <span>Log out</span></a></div>
+    </aside>
+    <main class="main-content">
+      <header class="topbar"><div class="mobile-title">Academic Advising Portal</div><div class="user-chip"><span class="avatar">AD</span><span><strong>Administrator</strong><small>Administrator dashboard</small></span></div></header>
+      <section id="overview" class="page-heading"><div><p class="eyebrow">ADMINISTRATOR DASHBOARD</p><h1>Portal overview</h1><p>Monitor sample appointments and the demonstration advisor directory.</p></div></section>
+      <div id="admin-message" class="message" role="status" hidden></div>
+      <section class="stat-grid admin-stats" aria-label="Portal statistics">
+        <article class="stat-card"><span class="stat-icon blue">♙</span><div><p>Students in appointment records</p><strong id="student-count">0</strong><small>Unique demonstration student IDs</small></div></article>
+        <article class="stat-card"><span class="stat-icon violet">♧</span><div><p>Demonstration advisors</p><strong id="advisor-count">0</strong><small>Sample directory entries</small></div></article>
+        <article class="stat-card"><span class="stat-icon green">☷</span><div><p>Total appointments</p><strong id="appointment-count">0</strong><small>All saved appointment records</small></div></article>
+      </section>
+      <section id="appointments" class="panel monitoring-panel">
+        <div class="section-heading"><div><p class="eyebrow">PORTAL MONITORING</p><h2>All appointments</h2></div></div>
+        <p class="section-description">Review student and advisor information, appointment time, purpose, and current status.</p>
+        <div class="table-wrap"><table><thead><tr><th>Student</th><th>Student ID</th><th>Advisor</th><th>Date &amp; time</th><th>Purpose</th><th>Status</th></tr></thead><tbody id="admin-table-body"></tbody></table></div>
+        <div id="empty-admin" class="empty-state" hidden>No appointment records are available.</div>
+      </section>
+      <section id="directories" class="directory-grid">
+        <article class="panel"><div class="section-heading"><div><p class="eyebrow">SAMPLE DIRECTORY</p><h2>Advisor information</h2></div></div><p class="section-description">Example advisors included with this demonstration.</p><div id="admin-advisor-list" class="directory-list"></div></article>
+        <article class="panel"><div class="section-heading"><div><p class="eyebrow">SAMPLE RECORDS</p><h2>Student information</h2></div></div><p class="section-description">Students are shown only when they have an appointment record.</p><div id="admin-student-list" class="directory-list"></div></article>
+      </section>
+      <footer class="page-footer">Academic Advising Portal · Frontend demonstration. No university records or real authentication are used.</footer>
+    </main>
+  </div>
+</body>
+</html>
